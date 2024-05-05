@@ -1,4 +1,5 @@
 [project]
+name = "macro_pack"
 authors = [
   {name = "@EmericNasi", email = "emeric.nasi@sevagas.com"}
 ]

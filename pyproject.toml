@@ -1,0 +1,34 @@
+[project]
+authors = [
+  {name = "@EmericNasi", email = "emeric.nasi@sevagas.com"}
+]
+maintainers = [
+  {name = "zazzzSec", email = "ian@zazzz.io"}
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+dynamic = ["version"]
+dependencies = [
+  "colorama>=0.4.0",
+  "termcolor>=1.1.0",
+  "tabulate>=0.8.5",
+  "psutil>=5.6.7",
+  "clr>=1.0.3",
+  "wsgidav>=3.0.0",
+  "cheroot>=6.3.3",
+  "pywin32>=225",
+  "pycdlib>=1.9.0",
+  "PyInstaller>=4.0",
+  "future~=0.18.2",
+  "boxsdk~=2.10.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/sevagas/macro_pack"
+Documentation = "https://github.com/sevagas/macro_pack"
+Repository = "https://github.com/sevagas/macro_pack.git"
+Issues = "https://github.com/sevagas/macro_pack/issues"
+Changelog = "https://github.com/sevagas/macro_pack/releases"
+
+[project.scripts]
+macro_pack = "macro_pack:main"
